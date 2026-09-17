@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#04050a" />
+      <stop offset="100%" stopColor="#0d1021" />
+    </linearGradient>
+    <pattern id="dotGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="rgba(255,255,255,0.05)" />
+    </pattern>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap');
+      .title { font-family: 'Space Grotesk', sans-serif; font-size: 72px; font-weight: 700; fill: #ffffff; letter-spacing: -2px; text-anchor: middle; dominant-baseline: central; }
+      .desc { font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 400; fill: #94a3b8; text-anchor: middle; dominant-baseline: central; }
+      .bottom-link { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 500; fill: #c084fc; text-anchor: end; dominant-baseline: central; letter-spacing: 1px; }
+      .tag { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 500; fill: #00d4ff; text-anchor: middle; dominant-baseline: central; }
+    </style>
+  </defs>
+  
+  <rect x="1" y="1" width="1198" height="398" rx="16" fill="url(#bgGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="398" rx="16" fill="url(#dotGrid)" />
+  
+  <!-- Flipped glow for variation -->
+  <circle cx="200" cy="200" r="200" fill="rgba(192,132,252,0.08)" filter="blur(80px)" />
+  <circle cx="1000" cy="200" r="200" fill="rgba(0,212,255,0.08)" filter="blur(80px)" />
+
+  <path d="M 50 50 L 120 50 L 150 80 L 1150 80" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+  <path d="M 50 350 L 120 350 L 150 320 L 1150 320" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2" />
+  <circle cx="50" cy="50" r="4" fill="#c084fc" />
+  <circle cx="50" cy="350" r="4" fill="#00d4ff" />
+
+  <!-- Centered content without name or logo -->
+  <g transform="translate(600, 180)">
+    <text class="title" x="0" y="-10">Immersive Gameplay<tspan fill="#00d4ff">.</tspan></text>
+    <text class="desc" x="0" y="50">Exploring mechanics and systems in Unreal Engine</text>
+  </g>
+
+  <!-- Right-aligned link in the bottom right corner -->
+  <text class="bottom-link" x="1150" y="340">portfolio.prasham-dde.workers.dev</text>
+</svg>
