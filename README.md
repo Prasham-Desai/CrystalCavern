@@ -39,9 +39,6 @@ CrystalCavern is a **Blueprint** project developed in **Unreal Engine 5**, demon
 - **Scoring/Progression**: Completing routes efficiently, avoiding major crashes, and mastering the vehicle's handling to overcome the cavern's natural obstacles.
 
 ---
-*Developed with Unreal Engine 5.*
-
----
 
 <div align="center">
 <sub>Built with &#x2764;&#xFE0F; using Unreal Engine 5</sub>
