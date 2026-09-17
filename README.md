@@ -41,6 +41,6 @@ CrystalCavern is a **Blueprint** project developed in **Unreal Engine 5**, demon
 ---
 
 <div align="center">
-<br><br>
+
 <img src="ScreenShots/github-readme-banner.svg" alt="Creator Signature Banner"/>
 </div>
