@@ -30,8 +30,8 @@
 
   <!-- Centered content without name or logo -->
   <g transform="translate(600, 180)">
-    <text class="title" x="0" y="-10">Immersive Gameplay<tspan fill="#00d4ff">.</tspan></text>
-    <text class="desc" x="0" y="50">Exploring mechanics and systems in Unreal Engine</text>
+    <text class="title" x="0" y="-10">Codebase Overview<tspan fill="#00d4ff">.</tspan></text>
+    <text class="desc" x="0" y="50">Interactive systems and technical implementations</text>
   </g>
 
   <!-- Right-aligned link in the bottom right corner -->
